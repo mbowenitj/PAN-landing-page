@@ -40,8 +40,10 @@ img{
   //  text-align: center;
  }
  .container{
-  background-image: url("../pencil.jpeg");
+  background-image: url("../crayons.jpeg");
   // background-repeat: no-repeat;
+  background-size: contain;;
+  height: 420px;
   width:100%;
  }
  .input-group{
@@ -53,7 +55,7 @@ img{
 
  .icons{
    background-color: red;
-   margin-top: 16px;
+   margin-top: 0px;
    height:92px;
  }
  .store-locator-btn{
@@ -63,33 +65,39 @@ img{
    display: block;
  }
 
-.promotions{
-  width:50%;
-  background-image: url("../pna-logo.png");
-}
-.latest-news{
-  width:50%;
-  background-image: url("../pna-logo.png");
-}
-h2{
-  text-align: center;
-  padding-top: 15px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-}
-p{
-  margin: 0 auto;
-  text-align: center;
-  width:81%;
-}
-.join-btn{
-  background-color: black;
-  color: white;
-}
-.shout-btn{
-  background-color: red;
-  color: white;
-}
-.group-buttons{
-  text-align: center;
-  padding-top: 24px;
-}
+  .promotions{
+    width:50%;
+    background-image: url("../crayons.jpeg");
+  }
+  .latest-news{
+    width:50%;
+    background-image: url("../pna-logo.png");
+  }
+  h2{
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  p{
+    margin: 0 auto;
+    text-align: center;
+    width:81%;
+  }
+  .join-btn{
+    background-color: black;
+    color: white;
+  }
+  .shout-btn{
+    background-color: red;
+    color: white;
+  }
+  .group-buttons{
+    text-align: center;
+    padding-top: 24px;
+  }
+
+  .footer{
+    background-color: black;
+    margin: 0 auto;
+    width:80%;
+  }
