@@ -17,19 +17,25 @@ body {
 img{
   margin:0 auto;
   display: block;
-  // width:140px;
+  margin-top: 36px;
 }
 .header-2{
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.navbar-default{
+  margin-top: 27px;
+
 }
  .navbar-nav {
    width: 100%;
    text-align: center;
    font-size: 10px;
-   background-color: white;
+  //  background-color: white;
+   background: rgba(255, 255, 255, 0);
    > li {
      float: none;
      display: inline-block;
@@ -37,32 +43,46 @@ img{
    }
  }
  .dropdown{
-  //  text-align: center;
+    text-align: center;
  }
  .container{
-  background-image: url("../crayons.jpeg");
+  background-image: url("../pencils1.jpeg");
   // background-repeat: no-repeat;
   background-size: contain;;
-  height: 420px;
+  height: 445px;
   width:100%;
  }
  .input-group{
+   display: inline-flex;
+   margin-left: -5px;
    .search-box{
     //  width:276px;
      background-color: black;
    }
  }
 
- .icons{
-   background-color: red;
-   margin-top: 0px;
-   height:92px;
+ .stationery-images{
+   width:100%;
+   display: inline-block;
+   margin-top: 25px;
  }
+
+.promotions-images{
+  float: left;
+  margin-top: 0px;
+  width: 50%;
+}
+.latest-news-images{
+  float: right;
+  margin-top: 0px;
+  width: 50%;
+}
  .store-locator-btn{
    background-color: red;
    color: white;
    margin: 0 auto;
    display: block;
+   margin-top: 47px;
  }
 
   .promotions{
@@ -73,15 +93,16 @@ img{
     width:50%;
     background-image: url("../pna-logo.png");
   }
-  h2{
+  .color-your-world{
     text-align: center;
-    padding-top: 15px;
+    font-size: 35px;
     font-family: "Comic Sans MS", cursive, sans-serif;
   }
-  p{
+  .text-container{
     margin: 0 auto;
     text-align: center;
     width:81%;
+    margin-top: 40px;
   }
   .join-btn{
     background-color: black;
