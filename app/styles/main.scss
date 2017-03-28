@@ -67,23 +67,109 @@ img{
    margin-top: 25px;
  }
 
-.promotions-images{
-  float: left;
-  margin-top: 0px;
-  width: 50%;
-}
-.latest-news-images{
-  float: right;
-  margin-top: 0px;
-  width: 50%;
-}
- .store-locator-btn{
-   background-color: red;
-   color: white;
-   margin: 0 auto;
-   display: block;
-   margin-top: 47px;
+  .promotions-images{
+    float: left;
+    margin-top: 0px;
+    width: 50%;
+  }
+  .latest-news-images{
+    float: right;
+    margin-top: 0px;
+    width: 50%;
+  }
+
+  .first-row-images{
+    width:50%;
+    margin: 0 auto;
+    padding-top: 44px;
+      .educational{
+        float: left;
+        margin-top: 0px;
+        width: 50%;
+      }
+      .for-school{
+        float: right;
+        margin-top: 0px;
+        width: 50%;
+      }
+  }
+
+  .second-row-images{
+    width:50%;
+    margin: 0 auto;
+    .sa-favourite{
+      float: left;
+      margin-top: 0px;
+      width: 40%;
+      height: 230px;;;
+    }
+    .new-arrivals{
+      float: left;
+      margin-top: 0px;
+      width: 20%;
+      height: 230px;;;
+    }
+    .trent-stationery{
+      margin-top: 0px;
+      width: 40%;
+      height: 230px;;;
+    }
+  }
+
+  .third-row-images{
+    width:50%;
+    margin: 0 auto;
+    .browse{
+      float: left;
+      margin-top: 0px;
+      width: 60%;
+      height: 313px;;;
+    }
+    .sign-up{
+      float: right;
+      margin-top: 0px;
+      width: 40%;
+      height:641px;;;
+    }
+  }
+
+.connect{
+  background-color: black;
+  height:641px;
+  color: white;
+  font-size: 25px;
+  .connect-content{
+    text-align: center;
+  }
+  .connect-content1{
+    text-align: center;
+    // padding-top: 47px;
+  }
+  .connect-content-with-us{
+    padding-top: 47px;
+    font-size: 35px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+  }
  }
+
+ .bottom-border{
+   width:100%;
+   background-color: black;
+   padding-top: 100px;
+   margin-top: 20px;
+   height:300px;
+   color: white;
+   font-size: 25px;
+ }
+
+   .store-locator-btn{
+     background-color: red;
+     color: white;
+     margin: 0 auto;
+     display: block;
+     margin-top: 47px;
+   }
 
   .promotions{
     width:50%;
@@ -117,8 +203,21 @@ img{
     padding-top: 24px;
   }
 
-  .footer{
-    background-color: black;
-    margin: 0 auto;
-    width:80%;
-  }
+.ul-header{
+  color: red;
+  text-align: center;
+}
+
+table{
+  width: 50% !important;
+  margin: 0 auto;
+}
+.table-header{
+  color: red;
+  font-size: 15px;
+}
+
+.table-data{
+  font-size: 15px;
+  color: grey;
+}
