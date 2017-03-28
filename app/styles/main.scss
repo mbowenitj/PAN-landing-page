@@ -211,13 +211,19 @@ img{
 table{
   width: 50% !important;
   margin: 0 auto;
+  margin-top: -50px;
+  font-size: 11px;
 }
-.table-header{
-  color: red;
-  font-size: 15px;
-}
+  .table-header{
+    color: red;
+  }
 
-.table-data{
-  font-size: 15px;
-  color: grey;
-}
+  .table-data{
+    color: grey;
+  }
+
+  .btn-raise-funds{
+    background-color: red;
+    color: black;
+    font-size: 15px;
+  }
